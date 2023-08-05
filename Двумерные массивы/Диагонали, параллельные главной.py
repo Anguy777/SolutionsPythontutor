@@ -5,10 +5,7 @@ n = int(input())
 a = [[0] * n for i in range(n)]
 for i in range(n):
     for j in range(n):
-        if i < j:
-            a[i][j] = j - i
-        else:
-            a[i][j] = abs(j - i)
+        a[i][j] = abs(j - i)
         
 for row in a:
     print(' '.join([str(elem) for elem in row]))
