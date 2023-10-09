@@ -1,2 +1,2 @@
 # Pythontutor
-Мои решение задачек с Питонтьютор https://pythontutor.ru/
+Мои решения задачек с Питонтьютор https://pythontutor.ru/
