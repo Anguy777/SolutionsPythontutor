@@ -7,7 +7,7 @@
 
 N,K =[int(i) for i in input().split()]
 strike_days = set()
-for i in range(K):
+for party in range(K):
     a_i,b_i = [int(i) for i in input().split()]
     strike_days.update(set(range(a_i,N+1,b_i)))
 weekends = ((set(range(6,N+1,7))) | (set(range(7,N+1,7))))
