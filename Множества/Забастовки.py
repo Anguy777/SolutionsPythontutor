@@ -14,7 +14,7 @@ weekends = ((set(range(6,N+1,7))) | (set(range(7,N+1,7))))
 strike_days.difference_update(weekends)
 print(len(strike_days))
 
-#Решение разрабов(не успевает завершиться на самом сайте из-за ограничения в 999 тактов/шагов при некоторых условвиях):
+#Решение разрабов(не успевает завершиться на самом сайте из-за ограничения в 999 тактов/шагов при некоторых условиях):
 N, K = [int(s) for s in input().split()]
 work_days = set([day for day in range(1, N + 1) if day % 7 not in (6, 0)])
 no_strikes = set(work_days)
