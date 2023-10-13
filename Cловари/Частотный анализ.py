@@ -29,7 +29,7 @@ pairs = [(-pair[1], pair[0]) for pair in counter.most_common()]
 words = [pair[1] for pair in sorted(pairs)]
 print('\n'.join(words))
 
-Альтернативное решение (была попытка такого решения, но что-то помешало и я не допёр):
+#Альтернативное решение (была попытка такого решения, но что-то помешало и я не допёр):
 dicts = {}
 n = int(input())
 for i in range(n):
